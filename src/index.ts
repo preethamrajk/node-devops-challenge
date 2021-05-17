@@ -1,6 +1,6 @@
-import { Express, Request, Response } from 'express';
+import express, { Request, Response } from 'express';
 
-const app = Express();
+const app = express();
 
 app.get('/', (_req: Request, res: Response) => {
   res.status(200).send('Hello World');

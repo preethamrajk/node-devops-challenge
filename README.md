@@ -10,6 +10,8 @@ The tests must be run using `yarn test` & the code must be built using `yarn bui
 
 The source requires a `Dockerfile` that is capable of running Node >=14.16.
 
+To run use `node dist` after building & the exposed port is `8080`.
+
 ## Expectations
 
 - The source should deploy to an Azure Container Instance
