@@ -9,8 +9,7 @@ variables:
   containerRegistry: 'colesdevopsregistry.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
-
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'For Coles'
 
 stages:
 - stage: Build
